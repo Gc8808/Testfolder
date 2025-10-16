@@ -1,0 +1,26 @@
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    height: 100vh; /* Optional: makes it fill the viewport vertically */
+}
+body {
+    background-color: gray; /* Light gray background for better contrast */
+    font-family: Arial, sans-serif; /* Clean font for readability */
+
+}
+
+h1 {
+   
+    margin-bottom: 20px; /* Space below the heading */
+    transition-duration: 2s;
+}
+
+h1:hover {
+    color: red; /* Change color on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition-duration: 2s;
+    transform: scale(1.1); /* Slightly enlarge the heading on hover */
+}

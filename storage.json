@@ -1,0 +1,114 @@
+{
+    "student1": {
+        "name": "Alice",
+        "classes": [
+            "Math",
+            "Science",
+            "History",
+            "AP Calculus AB",
+            "US History II",
+            "Spanish III",
+            "Computer Science Principles",
+            "Environmental Science",
+            "Health"
+        ]
+    },
+    "student2": {
+        "name": "Bob",
+        "classes": [
+            "English",
+            "Art",
+            "Physical Education",
+            "Algebra II",
+            "World History",
+            "Spanish II",
+            "Physics",
+            "Business Law",
+            "Music Theory"
+        ]
+    },
+    "student3": {
+        "name": "Charlie",
+        "classes": [
+            "Biology",
+            "Chemistry",
+            "Physics",
+            "Geometry",
+            "AP Psychology",
+            "Italian I",
+            "Economics",
+            "Video editing and Production",
+            "Graphic Design"
+        ]
+    },
+    "student4": {
+        "name": "Diana",
+        "classes": [
+            "Math",
+            "English",
+            "AP Calculus AB",
+            "Spanish III",
+            "Physics",
+            "Business Law",
+            "Music Theory",
+            "Health",
+            "Art"
+        ]
+    },
+    "student5": {
+        "name": "Ethan",
+        "classes": [
+            "Science",
+            "History",
+            "Algebra II",
+            "World History",
+            "Spanish II",
+            "Chemistry",
+            "Economics",
+            "Graphic Design",
+            "Physical Education"
+        ]
+    },
+    "student6": {
+        "name": "Fiona",
+        "classes": [
+            "Biology",
+            "AP Psychology",
+            "Italian I",
+            "Environmental Science",
+            "US History II",
+            "Computer Science Principles",
+            "Video editing and Production",
+            "Math",
+            "Art"
+        ]
+    },
+    "student7": {
+        "name": "George",
+        "classes": [
+            "English",
+            "Physics",
+            "Geometry",
+            "AP Calculus AB",
+            "Spanish III",
+            "Business Law",
+            "Music Theory",
+            "Health",
+            "Science"
+        ]
+    },
+    "student8": {
+        "name": "Hannah",
+        "classes": [
+            "History",
+            "Chemistry",
+            "Economics",
+            "Video editing and Production",
+            "Graphic Design",
+            "Physical Education",
+            "World History",
+            "Spanish II",
+            "Biology"
+        ]
+    }
+}
