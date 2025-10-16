@@ -70,6 +70,13 @@ async function displayStudents() {
             inputDiv.innerHTML = '<p>Error loading student data: ' + error.message + '</p>';
         }
     }
+
 }
 
 document.addEventListener('DOMContentLoaded', displayStudents);
+document.getElementById('input').addEventListener('mouseleave', playSound());
+
+function playSound() {
+    let audio = new Audio('ding-small-bell-sfx-233008.mp3');
+    audio.play();
+}

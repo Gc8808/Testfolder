@@ -7,7 +7,7 @@
     height: 100vh; /* Optional: makes it fill the viewport vertically */
 }
 body {
-    background-color: gray; /* Light gray background for better contrast */
+    background-color: darkgreen; /* Light gray background for better contrast */
     font-family: Arial, sans-serif; /* Clean font for readability */
 
 }
@@ -23,4 +23,35 @@ h1:hover {
     cursor: pointer; /* Change cursor to pointer on hover */
     transition-duration: 2s;
     transform: scale(1.1); /* Slightly enlarge the heading on hover */
+}
+
+.card {
+    background-color: green; /* White background for the card */
+    padding: 20px; /* Padding inside the card */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center; /* Center text inside the card */
+    width: 300px; /* Fixed width for the card */
+      transition-duration: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px red; /* Enhanced shadow on hover */
+    transform: scale(1.05); /* Slightly lift the card on hover */
+    transition-duration: 0.3s; /* Smooth transition for hover effects */
+}
+.colorchange {
+    animation: colorchange 60s infinite linear;
+    color: black;
+}
+
+@keyframes colorchange {
+    0% { background: greenyellow; }
+    14% { background: darkolivegreen; }
+    28% { background: darkgreen; }
+    42% { background: green; }
+    57% { background: greenyellow; }
+    71% { background:  darkolivegreen; }
+    85% { background: darkgreen; }
+    100% { background: greenyellow; }
 }
